@@ -1,0 +1,70 @@
+:root {
+    --bgcolor: rgb(195, 222, 232);
+    --txtcolor: rgb(133, 156, 235);
+    --secondary: rgb(255, 255, 255);
+    --third: rgb(211, 210, 243);
+    --fourth: rgb(149, 149, 255);
+}
+
+body {
+    margin: 0;
+    background-color: var(--bgcolor);
+    color: var(--txtcolor);
+}
+
+header {
+    background-color: var(--bgcolor);
+}
+
+header nav ul li {
+    text-decoration: none;
+    color: var(--txtcolor) !important;
+}
+
+nav ul {
+    display: flex;
+    background-color: var(--secondary);
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:visited {
+    text-decoration: none;
+    color: var(--txtcolor);
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: var(--txtcolor);
+    background-color: var(--secondary) !important;
+}
+
+ul li a:hover {
+    background-color: rgb(56, 143, 220) !important;
+}
+
+header nav ul li a:active {
+    text-decoration: none;
+    color: var(--txtcolor);
+    background-color: rgb(134, 162, 173) !important;
+}
+
+footer {
+    background-color: var(--secondary);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+}

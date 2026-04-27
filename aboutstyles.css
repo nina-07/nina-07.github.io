@@ -1,0 +1,27 @@
+header {
+    position: sticky !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+#employees {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#employees img {
+    width: 500px;
+    height: 400px;
+    border-radius: 28px;
+}
+
+#employee1 h3 {
+    text-align: center;
+}
+
+#employee2 h3 {
+    text-align: right;
+}
+
