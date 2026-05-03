@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="icon" type="image/x-icon" href="media/images/favicon_io/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/aboutstyles.css">
+</head>
+<body>
+    <!--header with nav-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="artistworks.html">ARTIST WORKS</a></li>
+                <li><a href="biocontact.html">BIO/CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <div id="ninaportrait">
+        <div id="portrait">
+            <img src="media/images/NinaPortrait.jpg" alt="portrait">
+        </div>
+    <h2>About the Artist</h2>
+    <!-- Body of html, start of form -->
+    <form action="thankyou.html">
+        <div id="innerForm">
+            <h1 id="heading">Contact Nina!</h1>
+            <label><b>First Name:</b></label>
+            <input type="text" id="fname">
+            <br>
+            <label><b>Last Name:</b></label>
+            <input type="text" id="lname">
+            <br>
+            <br>
+            <label><b>Phone Number:</b></label>
+            <input type="text" id="phonenumber">
+            <br>
+            <label><b>Email Address:</b></label>
+            <input type="text" id="email">
+            <br>
+            <p><b>Subject:</b></p>
+            <textarea rows="4" cols="50" placeholder="Enter subject here..."></textarea>
+            <br>
+            <p><b>Message:</b></p>
+            <textarea rows="4" cols="50" placeholder="Enter message here..."></textarea>
+            <br>
+            <br>
+            <p><b>How would you like us to reach out?</b></p>
+            <input type="radio" name="reachout" id="text">
+            <label>Text Message</label>
+            <br>
+            <input type="radio" name="reachout" id="email">
+            <label>Email</label>
+            <br>
+            <br>
+            <br>
+            <input type="checkbox" id="updates">
+            <label>Sign up to receive updates on upcoming works or promotional events</label>
+            <br>
+            <br>
+            <br>
+            <button type="reset">Clear</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <footer>
+        <div id="col2">
+            <p>Nina Smith Studio © 2026</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
