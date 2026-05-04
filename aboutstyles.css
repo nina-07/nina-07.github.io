@@ -3,17 +3,17 @@ form {
     margin: 0;
     align-items: center;
     justify-content: center;
-    background-color: #DECDF6;
+    background-color: #DECDF5;
 }
 
-#ninaportrait {
+#portraitandinfo {
     display: flex;
     justify-content: space-evenly;
 }
 
-#ninaportrait img {
-    width: 325px;
-    height: 400px;
+#portraitandinfo img {
+    width: 280px;
+    height: 350px;
     border-radius: 25px;
 }
 
@@ -25,4 +25,10 @@ h1 {
 h2 {
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#aboutinfo p {
+    text-align: center;
+    width: 600px;
+    font-size: 21px;
 }
