@@ -38,7 +38,7 @@ startCountBtn.onclick = function() {
     const IntervalId = setInterval(function() {
         if (timeLeft <= 0) {
             clearInterval(IntervalId);
-            document.querySelector("#displayCount").innerText = "Countdown Complete! Now, check out Nina's work!";
+            document.querySelector("#displayCount").innerText = "Countdown complete! Now, check out Nina's work!";
         } else {
             document.querySelector("#displayCount").innerText = timeLeft;
             timeLeft = timeLeft - 1;
