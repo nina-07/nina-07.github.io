@@ -17,19 +17,19 @@ lastName.oninput = function(){
 // Colors is an array
 // Arrays start at zero and go to n-1
 grad[0].onclick = function(){
-    alert("I am not graduating in 2026!");
+    alert("Nina is not graduating in 2026!");
 }
 
 grad[1].onclick = function(){
-    alert("I am not graduating in 2027!");
+    alert("Nina is not graduating in 2027!");
 }
 
 grad[2].onclick = function(){
-    alert("I am graduating in 2028!");
+    alert("Nina is graduating in 2028!");
 }
 
 grad[3].onclick = function(){
-    alert("I am not graduating in 2029!");
+    alert("Nina is not graduating in 2029!");
 }
 
 startCountBtn.onclick = function() {
