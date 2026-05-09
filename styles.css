@@ -27,7 +27,7 @@ nav ul {
     flex-direction: row;
     justify-content: space-evenly;
     margin: 0;
-    font-size: 30pt;
+    font-size: 25pt;
 }
 
 header nav ul li {
@@ -75,4 +75,95 @@ footer {
 #thankyoumessage {
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgb(126, 28, 80);
+}
+
+table thead tr {
+    background-color: var(--secondary);
+    color: var(--bgcolor);
+    text-align: center;
+}
+
+tbody {
+    background-color: rgb(245, 229, 243);
+}
+
+table th, table td {
+    padding:12px 15px;
+    border: 1px solid rgb(182, 112, 190)
+}
+
+table tbody tr {
+    border-bottom: 1px solid rgb(178, 37, 112);
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: rgb(239, 203, 233);
+    color: rgb(167, 91, 131);
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid pink;
+}
+
+table tbody tr:hover {
+    background-color: rgb(241, 219, 233);
+}
+
+h1 {
+    color: var(--fourth);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-left: 15px;
+}
+
+#interests {
+    color: var(--fourth);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+p {
+    margin-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label {
+    margin-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#firstName {
+    margin-left: 5px;
+}
+
+#lastName {
+    margin-left: 5px; 
+}
+
+#fullName {
+    margin-left: 5px;
+}
+
+#myGradYear {
+    margin-left: 20px;
+}
+
+#years {
+    margin-left: 5px;
+}
+
+#countNum {
+    margin-left: 20px;
 }
